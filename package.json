@@ -1,7 +1,7 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://colinloftus.com",
+  "homepage": "https://thomascavallone.com",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -17,7 +17,8 @@
     "start": "react-scripts start",
     "test": "npx jest",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build:docs": "rimraf ./build && react-scripts build && rimraf ./docs && mkdir -p docs && cp -R build/* docs && cp CNAME docs/CNAME"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
