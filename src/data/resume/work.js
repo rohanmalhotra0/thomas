@@ -14,50 +14,82 @@
 
 const work = [
   {
-    name: 'Accounting Students Association - University of Delaware',
-    position: 'Member',
-    url: 'https://www.udel.edu',
-    startDate: '2025-09-01',
-    summary: 'Active member participating in professional development and networking events.',
+    name: 'New Street Research',
+    position: 'Incoming Summer 2026 Research Analyst Intern',
+    url: 'https://www.newstreetresearch.com/',
+    startDate: '2025-08-01',
+    summary:
+      'Incoming Research Analyst Intern covering Digital Infrastructure / Datacenter sector.',
+    highlights: [
+      'Coverage focus: U.S. towers and global communications & tech infrastructure.',
+    ],
+  },
+  {
+    name: 'New Street Research',
+    position: 'Research Analyst & Business Development Intern',
+    url: 'https://www.newstreetresearch.com/',
+    startDate: '2025-06-01',
+    endDate: '2025-08-31',
+    summary:
+      'Supported U.S. tower research (AMT, CCI, SBAC), contributed to models and sector sensitivity analysis, and supported client-facing deliverables.',
+    highlights: [
+      'Reviewed 10-Qs/earnings and updated financials and operating KPIs; rolled into U.S. tower industry model for sector forecasts and valuation sensitivities.',
+      'Built scenario frameworks (churn, escalators, leasing) to frame sector upside/downside.',
+      'Built 20+ page Global Comms overview deck adopted by sales; updated Tech Infrastructure deck.',
+      'Produced research support materials: company/market snapshots, trackers, comps-style tables.',
+      'Executed Salesforce/Pardot outreach; segmented lists, coordinated sends, and tracked engagement.',
+    ],
+  },
+  {
+    name: 'SEO Career – IB & Alternative Investments Track',
+    position: 'Edge Program Participant',
+    url: 'https://www.seo-usa.org/seo-career/',
+    startDate: '2025-12-01',
+    summary:
+      'Selected for SEO Career Edge with structured prep for Summer 2027 roles.',
+    highlights: [
+      'Completing technical, behavioral, and industry training alongside coursework and leadership roles at UVA.',
+    ],
+  },
+  {
+    name: 'Elevate Off-Campus Meal Plan',
+    position: 'Business Development Representative',
+    url: '',
+    startDate: '2025-10-01',
+    summary:
+      'Prospected and onboarded local restaurants; managed partner pipeline and launch logistics.',
     highlights: [],
   },
   {
-    name: 'Memorial Pool',
-    position: 'Lifeguard',
+    name: 'Student Council, Finance Committee (UVA)',
+    position: 'Administrator',
+    url: 'https://uvastudentcouncil.com/',
+    startDate: '2025-09-01',
+    summary:
+      'Evaluated funding proposals and hardship grants across a $1M+ annual budget.',
+    highlights: [
+      'Standardized review criteria and follow-ups to improve consistency and throughput.',
+    ],
+  },
+  {
+    name: 'The Incident Comedy Group',
+    position: 'Writer, Actor, Editor',
     url: '',
-    startDate: '2024-06-01',
+    startDate: '2025-09-01',
     summary:
-      'Ensured swimmer safety and fostered a positive, community-focused environment.',
-    highlights: [
-      'Cultivated positive relationships with members and promoted safety awareness.',
-      'Executed regular safety drills and maintained vigilant surveillance.',
-      'Applied first aid and CPR to enable swift, effective responses during emergencies.',
-    ],
+      'Collaborated on concepts, scripts, and performances; lead editor for post-production workflow.',
+    highlights: [],
   },
   {
-    name: 'UDairy Creamery',
-    position: 'Research Analyst',
-    url: 'https://www.udel.edu/udairy-creamery/',
-    startDate: '2024-10-01',
-    endDate: '2024-11-30',
+    name: 'THON - For The Kids (Penn State)',
+    position: 'Fundraiser and Volunteer',
+    url: 'https://thon.org/',
+    startDate: '2025-01-01',
+    endDate: '2025-05-31',
     summary:
-      'Analyzed profitability and market viability for potential UDairy cheese offerings.',
+      'Raised funds for pediatric cancer research and supported THON Weekend operations.',
     highlights: [
-      'Evaluated production costs, pricing, and demand to inform profitability recommendations.',
-      'Conducted consumer polling on price sensitivity and purchasing habits to guide strategy.',
-    ],
-  },
-  {
-    name: 'Erickson Senior Living',
-    position: 'Server (Part-time)',
-    url: 'https://www.ericksonseniorliving.com/',
-    startDate: '2023-06-01',
-    endDate: '2023-09-30',
-    summary:
-      'Supported front-of-house operations in a fast-paced environment.',
-    highlights: [
-      'Demonstrated versatility across hosting, bussing, and expediting.',
-      'Delivered consistent, friendly customer service under time pressure.',
+      'Raised $6,000+ through donor outreach and peer-to-peer fundraising.',
     ],
   },
 ];
