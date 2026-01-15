@@ -7,14 +7,14 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <img
-        src={`${process.env.PUBLIC_URL}/profile.jpg`}
-        alt="Thomas Cavallone"
+        src={`${process.env.PUBLIC_URL}/Gavin Photo.jpeg`}
+        alt="Gavin Lacy"
         style={{ width: '150px', borderRadius: '8px' }}
       />
       <header>
-        <h2>Thomas Cavallone</h2>
+        <h2>Gavin Lacy</h2>
         <p>
-          <a href="mailto:thomasrcavallone@gmail.com">thomasrcavallone@gmail.com</a>
+          <a href="mailto:gavinlacy321@gmail.com">gavinlacy321@gmail.com</a>
         </p>
       </header>
     </section>
@@ -22,9 +22,9 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hello, I&apos;m Thomas Cavallone, a freshman at the University of Delaware studying
-        Accounting and Business Analytics at the Alfred Lerner College of Business &amp; Economics.
-        I&apos;m from Chatham, New Jersey and I&apos;m open to internships across business fields.
+        Hi, I&apos;m Gavin Lacy, a Commerce student at the University of Virginia&apos;s McIntire
+        School of Commerce focused on Finance and Accounting. I&apos;m from Chatham, New Jersey and
+        I&apos;m interested in research, investing, and capital markets roles.
       </p>
       <ul className="actions">
         <li>

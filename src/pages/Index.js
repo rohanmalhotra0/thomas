@@ -4,22 +4,22 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 const Index = () => (
-  <Main description="Thomas's personal website.">
+  <Main description="Gavin's personal website.">
     <article className="post" id="index">
       <header>
         <div className="title">
           <h2>
-            <Link to="/">Thomas Cavallone</Link>
+            <Link to="/">Gavin Lacy</Link>
           </h2>
           <p>
-            Freshman at the University of Delaware studying Accounting and Business Analytics.
+            Commerce Student at the University of Virginia (McIntire School of Commerce).
           </p>
         </div>
       </header>
       <div className="hero">
         <img
-          src={`${process.env.PUBLIC_URL}/delaware logo.jpeg`}
-          alt="University of Delaware - Lerner Business & Economics"
+          src={`${process.env.PUBLIC_URL}/UVA Logo.jpeg`}
+          alt="University of Virginia - McIntire School of Commerce"
           className="hero-logo"
         />
         <div className="cta-buttons">

@@ -19,7 +19,7 @@ const Stats = () => (
           </p>
         </div>
       </header>
-      <h3>📄 Publications</h3>
+      <h3>Research Publications</h3>
       <ul>
         <li>
           <strong>
@@ -31,7 +31,7 @@ const Stats = () => (
               Reddit Data in Quantitative Financial Models
             </a>
           </strong>{' '}
-          — Feb 2025
+          , Feb 2025
           <br />
           Explores Reddit-driven sentiment post-GME/AMC and its implications on
           market volatility.
