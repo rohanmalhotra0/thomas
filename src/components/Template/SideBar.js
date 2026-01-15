@@ -22,7 +22,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Gavin Lacy — a Commerce student at the University of Virginia&apos;s McIntire
+        Hi, I&apos;m Gavin Lacy, a Commerce student at the University of Virginia&apos;s McIntire
         School of Commerce focused on Finance and Accounting. I&apos;m from Chatham, New Jersey and
         I&apos;m interested in research, investing, and capital markets roles.
       </p>

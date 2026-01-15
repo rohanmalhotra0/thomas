@@ -31,7 +31,7 @@ const Stats = () => (
               Reddit Data in Quantitative Financial Models
             </a>
           </strong>{' '}
-          — Feb 2025
+          , Feb 2025
           <br />
           Explores Reddit-driven sentiment post-GME/AMC and its implications on
           market volatility.
