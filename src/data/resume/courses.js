@@ -1,21 +1,21 @@
 const courses = [
   {
-    title: 'Micro Economicss',
-    number: 'Econ 101',
-    link: 'https://catalog.udel.edu/content.php?catoid=90&navoid=27930&print',
-    university: 'University of Delaware',
+    title: 'Foundations of Finance',
+    number: 'COMM Finance',
+    link: 'https://www.commerce.virginia.edu/',
+    university: 'University of Virginia',
   },
   {
-    title: 'Macro Economics',
-    number: 'Econ 103',
-    link: 'https://catalog.udel.edu/content.php?catoid=90&navoid=27930&print',
-    university: 'University of Delaware',
+    title: 'Foundations of Financial Accounting',
+    number: 'COMM Accounting',
+    link: 'https://www.commerce.virginia.edu/',
+    university: 'University of Virginia',
   },
   {
-    title: 'Calculus I',
-    number: 'Math 221',
-    link: 'https://www.udel.edu/academics/colleges/cas/units/departments/mathematical-sciences/undergraduate-programs/foundational-math-courses/math-221-calculus/',
-    university: 'University of Delaware',
+    title: 'Statistics for Business',
+    number: 'COMM Statistics',
+    link: 'https://www.commerce.virginia.edu/',
+    university: 'University of Virginia',
   },
 ];
 

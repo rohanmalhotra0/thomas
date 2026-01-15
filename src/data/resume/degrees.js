@@ -1,16 +1,16 @@
 const degrees = [
   {
-    school: 'University of Delaware',
-    degree: 'B.S. in Accounting & Business Analytics',
-    link: 'https://lerner.udel.edu/',
+    school: 'UVA McIntire School of Commerce',
+    degree: 'B.Commerce, Accounting and Finance (GPA: 3.93)',
+    link: 'https://www.commerce.virginia.edu/',
     year: 2028,
   },
 
   {
-    school: 'Chatham High School',
-    degree: 'High School Diploma',
-    link: 'https://www.chatham-nj.org',
-    year: 2024,
+    school: 'The Pennsylvania State University',
+    degree: 'Intended B.S. in Finance',
+    link: 'https://www.psu.edu/',
+    year: 2025,
   },
 ];
 
