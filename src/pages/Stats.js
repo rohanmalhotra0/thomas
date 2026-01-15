@@ -19,7 +19,7 @@ const Stats = () => (
           </p>
         </div>
       </header>
-      <h3>📄 Publications</h3>
+      <h3>Research Publications</h3>
       <ul>
         <li>
           <strong>
