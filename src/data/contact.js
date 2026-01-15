@@ -5,17 +5,17 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 
 const data = [
   {
-    link: 'https://www.instagram.com/thomas_cavallone/?hl=en',
+    link: 'https://www.instagram.com/gavinlacyy/?__d=11',
     label: 'Instagram',
     icon: faInstagram,
   },
   {
-    link: 'https://www.linkedin.com/in/thomas-cavallone',
+    link: 'https://www.linkedin.com/in/gavinlacy/overlay/background-image/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
   {
-    link: 'mailto:thomasrcavallone@gmail.com',
+    link: 'mailto:gavinlacy321@gmail.com',
     label: 'Email',
     icon: faEnvelope,
   },
