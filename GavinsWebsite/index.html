@@ -303,6 +303,11 @@
               <li>
                 <a href="https://www.instagram.com/gavinlacyy/" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a>
               </li>
+              <li>
+                <button type="button" class="socialsites-copy-email" title="Copy email" data-email="pxt6fk@virginia.edu" aria-label="Copy email to clipboard">
+                  <span class="iconify" data-icon="simple-icons:gmail" style="font-size: 1.25rem;"></span>
+                </button>
+              </li>
             </ul>
           </div>
         </div>
@@ -336,6 +341,7 @@
               icon.classList.remove('fa-chevron-down');
               icon.classList.add('fa-chevron-up');
               label.textContent = 'View less';
+              el.scrollIntoView({ behavior: 'smooth', block: 'center' });
             } else {
               el.classList.add('expandable-hidden');
               el.style.display = 'none';
@@ -386,6 +392,19 @@
       modal.querySelector('.cert-modal-backdrop').addEventListener('click', closeCertModal);
       document.addEventListener('keydown', function(e) {
         if (e.key === 'Escape' && modal.classList.contains('cert-modal-open')) closeCertModal();
+      });
+
+      // Copy email to clipboard
+      document.querySelectorAll('.socialsites-copy-email').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var email = this.getAttribute('data-email');
+          var title = this.getAttribute('title');
+          navigator.clipboard.writeText(email).then(function() {
+            var orig = btn.getAttribute('title');
+            btn.setAttribute('title', 'Copied!');
+            setTimeout(function() { btn.setAttribute('title', orig); }, 1500);
+          });
+        });
       });
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
