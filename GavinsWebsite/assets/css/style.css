@@ -860,6 +860,12 @@ header ul li a.active {
 
 .experience-cards-div .expandable-content {
   gap: 1rem;
+  width: 100%;
+}
+
+.experience-cards-div .expandable-content:not(.expandable-hidden) {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
 }
 
 .experience-cards-div .expandable-content .experience-card,
