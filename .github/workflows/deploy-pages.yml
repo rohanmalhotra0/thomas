@@ -27,6 +27,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      # Keep this workflow file changeable to trigger a fresh Pages deploy when needed.
       - name: Verify site folder
         run: test -f "./GavinsWebsite/index.html"
 
