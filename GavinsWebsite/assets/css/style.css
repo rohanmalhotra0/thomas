@@ -107,7 +107,8 @@ ul {
 .brand-logo {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  background: #ffffff;
 }
 
 .brand-copy {
@@ -371,6 +372,10 @@ ul {
   border-radius: 18px;
   border: 1px solid var(--border);
   background: #fff;
+}
+
+.detail-media-small {
+  max-width: 140px;
 }
 
 .detail-title {
