@@ -367,15 +367,20 @@ ul {
 }
 
 .detail-media {
-  width: 100%;
-  max-width: 260px;
+  width: 120px;
+  max-width: 120px;
+  height: 120px;
   border-radius: 18px;
   border: 1px solid var(--border);
   background: #fff;
+  object-fit: contain;
+  padding: 0.35rem;
 }
 
 .detail-media-small {
-  max-width: 140px;
+  width: 120px;
+  max-width: 120px;
+  height: 120px;
 }
 
 .detail-title {
