@@ -27,10 +27,13 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - name: Verify site folder
+        run: test -f "./GavinsWebsite/index.html"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "."
+          path: "./GavinsWebsite"
 
       - name: Deploy to GitHub Pages
         id: deployment
